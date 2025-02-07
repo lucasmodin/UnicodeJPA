@@ -22,6 +22,7 @@ public class InitData implements CommandLineRunner {
 
     //fra 0 til 65535, det var hvad jeg kunne læse mig frem til som maks kunne være i et Set<Character>
         //dette hører under det man kalder BMP (Basic Multilingual Plane) der spænder over U+0000 til U+FFFF
+        //det vil dog tage lidt tang tid at køre dette program
     for (int i = 0; i <= 65535; i++) {
         unicodeChars.add((char) i);
     }
